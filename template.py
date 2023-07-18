@@ -13,12 +13,13 @@ list_of_files = [
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/contants/__init__.py",
-    "config/config.yaml",
-    "dvc.yaml",
-    "params.yaml",
-    "requirements.txt",
-    "setup.py",
-    "research/trials.ipynb"
+    f"config/config.yaml",
+    f"dvc.yaml",
+    f"params.yaml",
+    f"requirements.txt",
+    f"setup.py",
+    f"research/trials.ipynb",
+    f"templates/index.html"
     ]
 for filepath in list_of_files:
     filepath = Path(filepath)
